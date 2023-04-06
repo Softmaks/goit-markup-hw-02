@@ -39,11 +39,8 @@
   |============================
 */
 .body{
-  font-family: var(--primary-font);
-  letter-spacing: 0.02em;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
+  font-family: var(--primary-font);
   background-color: var(--main-bg-color);
   color: var(--main-text-color);
 
@@ -83,8 +80,6 @@ font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 text-transform: uppercase;
-display: flex;
-align-items: center;
 letter-spacing: 0.03em; 
 
 /* Web */
@@ -125,7 +120,7 @@ color: var(--main-title-color);
 
 /**
   |============================
-  | Contacts section
+  | Contacts section 
   |============================
 */
 .contacts{
@@ -146,7 +141,7 @@ color: var(--main-title-color);
 
 /**
   |============================
-  | Index - main section
+  | Index - main section - 1 page
   |============================
 */
 
@@ -159,7 +154,7 @@ color: var(--main-title-color);
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--main-btn-color);
 }
 
 .main-button{
@@ -185,7 +180,7 @@ color: var(--main-title-color);
 
 /**
   |============================
-  | Skills section
+  | Skills section - 1 page
   |============================
 */
 .second-title {
@@ -205,18 +200,23 @@ color: var(--main-title-color);
   letter-spacing: 0.02em;
   color: var(--main-title-color);
 }
+.skills-text {
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: var(--main-text-color)
+}
 
 
 
 /**
   |============================
-  | What are we doing - section
+  | What are we doing - section - 1 page
   |============================
 */
 
 /**
   |============================
-  | Our team - section
+  | Our team - section  - 1 page
   |============================
 */
 .team {
@@ -243,15 +243,13 @@ color: var(--main-title-color);
 
 /**
   |============================
-  | Portfolio section
+  | Portfolio section - 2 page
   |============================
 */
 
 .portfolio-butt-filter {
   font-family:  var(--primary-font);
   letter-spacing: 0.04em;
-  width: 116px;
-  height: 48px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -273,17 +271,11 @@ color: var(--main-title-color);
 }
 
 .portfolio-item {
-  box-sizing: border-box;
-  width: 360px;
-  height: 420px;
-  left: 156px;
-  top: 288px;
   background: var(--primary-bg-color);
-  border: 1px solid #e7e9fc;
+
 }
 .portfolio-text-title {
   font-family:  var(--primary-font);
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -293,7 +285,9 @@ color: var(--main-title-color);
 }
 
 .portfolio-text-text {
-  color: var(--main-text-color);
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: var(--main-text-color)
 }
 
 
